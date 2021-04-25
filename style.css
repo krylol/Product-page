@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Rajdhani&family=Zen+Dots&display=swap');
+body{
+    background-color:rgb(241, 241, 241);
+}
 #nav-bar{
     overflow: hidden;
-    background-color: rgb(112, 65, 65);
+    background-color: rgb(167, 127, 127);
     position: fixed;
     top: 0;
     width: 100%;
@@ -19,6 +23,7 @@
     margin-top: 67px;
     font-size: 20px;
     display: flex;
+    font-family: 'Playfair Display', serif;
 }
 
 #container{
@@ -54,4 +59,15 @@
     text-align: center;
     box-sizing: border-box;
     margin-left: 205px;
+    background-color: rgba(6, 199, 6, 0.534);
 }
+ol{
+    font-family: 'Zen Dots', cursive;
+    margin-bottom: -200px;
+}
+
+p{
+    font-family: 'Zen Dots', cursive;
+}
+h3{font-family: 'Rajdhani', sans-serif;font-size: 35px; margin-left: -15px;}
+h2{font-family: 'Rajdhani', sans-serif;font-size: 35px;}
